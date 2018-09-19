@@ -1,0 +1,35 @@
+{
+  "name": "serverless-event-body-option",
+  "version": "1.0.0",
+  "description": "The serverless plugin that provides the extra CLI option '--body/-b' for the invoke (local) command to support passing the HTTP body data directly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jubel-han/serverless-event-body-option.git"
+  },
+  "keywords": [
+    "serverless",
+    "serverless framework plugin",
+    "serverless.com",
+    "amazon",
+    "amazon web services",
+    "aws",
+    "lambda"
+  ],
+  "author": "Jubel Han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jubel-han/serverless-event-body-option/issues"
+  },
+  "homepage": "https://github.com/jubel-han/serverless-event-body-option#readme",
+  "dependencies": {
+    "bluebird": "^3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "serverless": "^1.32.0"
+  }
+}
