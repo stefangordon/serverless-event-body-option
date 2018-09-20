@@ -1,6 +1,6 @@
 {
   "name": "serverless-event-body-option",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The serverless plugin that provides the extra CLI option '--body/-b' for the invoke (local) command to support passing the HTTP body data directly.",
   "main": "index.js",
   "scripts": {
