@@ -15,7 +15,7 @@ class BodyOption {
         options: {
           body: {
             usage: 'The HTTP body data in the event, format: Json string or json file path.',
-            shortcut: 'd',
+            shortcut: 'b',
           },
         },
 
@@ -28,7 +28,7 @@ class BodyOption {
             options: {
               body: {
                 usage: 'The HTTP body data in the event, format: Json string or json file path.',
-                shortcut: 'd',
+                shortcut: 'b',
               },
             },
           },
